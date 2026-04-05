@@ -5,13 +5,13 @@ EventNest is a modern and responsive Event Management Web Application UI designe
 
 🎯 Features
 👤 User Panel
-> User Registration & Login
-> Browse upcoming events
-> Search and filter events
-> Event booking interface
-> View booking details
-> User profile management
-> Contact & information pages
+User Registration & Login
+Browse upcoming events
+Search and filter events
+Event booking interface
+View booking details
+User profile management
+Contact & information pages
 
 🛠️ Admin Panel
 Admin dashboard
