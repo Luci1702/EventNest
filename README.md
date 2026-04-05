@@ -1,67 +1,91 @@
-🎉 EventNest – Event Management UI Platform
+🎉 EventNest – Full Stack Event Management System
 🚀 Overview
 
-EventNest is a modern and responsive Event Management Web Application UI designed to simplify event discovery and booking. It provides separate interfaces for Users and Admins, simulating a real-world event management system.
+EventNest is a full-stack Event Management Web Application that allows users to explore, register, and book events, while admins can manage events, users, and bookings through a dedicated dashboard.
+
+This project simulates a real-world event booking platform with both frontend and backend integration.
 
 🎯 Features
 👤 User Panel
-User Registration & Login
-Browse upcoming events
-Search and filter events
-Event booking interface
-View booking details
-User profile management
-Contact & information pages
+🔐 User Authentication (Register / Login)
+📅 Browse and explore events
+🔍 Search & filter events
+🎟️ Event booking system
+📄 View booking history
+👤 Profile management
 
 🛠️ Admin Panel
-Admin dashboard
-Manage events (Add / Edit / Delete)
-Manage users
-Manage bookings
-Category management
+📊 Admin Dashboard
+📅 Manage Events (Add / Update / Delete)
+👥 Manage Users
+🎟️ Manage Bookings
+📂 Category Management
 
 🏗️ Project Structure
 EventNest/
 │
-├── index.html
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── images/
+├── frontend/
+│   ├── HTML
+│   ├── CSS
+│   ├── JavaScript
 │
-├── user/
-│   ├── pages (home, events, login, register, etc.)
+├── backend/
+│   ├── Controllers
+│   ├── Models
+│   ├── Routes
+│   ├── Configuration Files
 │
-├── admin/
-│   ├── dashboard
-│   ├── event management
-│   ├── user management
-
+├── database/
+│   ├── Schema / SQL Files
 💻 Technologies Used
+
+🌐 Frontend
 HTML5
 CSS3
 JavaScript
+
+⚙️ Backend
+Springboot
+Java (Servlets / JSP) 
+
+🗄️ Database
+MySQL
+
+🔑 Core Functionalities
+Authentication system with session handling
+CRUD operations for events and users
+Booking management system
+Admin control panel
+Dynamic data rendering from backend
+
 🎨 UI Highlights
 Responsive design
-Clean and modern interface
-Easy navigation
-Interactive UI components
+Clean dashboard UI
+Structured navigation
+Interactive forms and components
 
-📌 Purpose
-Practice advanced frontend development
-Build a real-world UI project
-Improve UI/UX design skills
-Create a portfolio-ready project
+⚙️ How to Run the Project
+Clone the repository
+git clone https://github.com/Luci1702/EventNest.git
+Setup backend server
+Configure database (MySQL)
+Update DB credentials
+Run the server
+For Java: Deploy on Apache Tomcat
+npm install
+npm start
+Open in browser
+http://localhost:8080
 
-🔮 Future Improvements
-Backend integration (Spring Boot / Django)
+🔮 Future Enhancements
 Payment gateway integration
 Email notifications
 Real-time updates
+Event analytics dashboard
 
 👨‍💻 Author
 Pravin Mahamuni
-Full Stack Developer (Aspiring)
+🚀 Full Stack Developer
 
 ⭐ Support
 If you like this project, give it a ⭐ on GitHub!
